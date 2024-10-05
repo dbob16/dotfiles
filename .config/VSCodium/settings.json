@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Comic Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "files.enableTrash": false,
+    "window.restoreWindows": "none",
+    "editor.parameterHints.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "terminal.integrated.tabs.enabled": false,
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.enablePersistentSessions": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 1
+}

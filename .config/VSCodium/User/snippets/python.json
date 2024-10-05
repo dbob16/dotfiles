@@ -1,0 +1,12 @@
+{
+	"Creates a new main function.": {
+		"prefix": "newmain",
+		"body": [
+			"def main():",
+			"\t$1",
+			"",
+			"if __name__ == \"__main__\":",
+			"\tmain()"
+		]
+	}
+	}
