@@ -12,7 +12,6 @@
     "explorer.compactFolders": false,
     "workbench.startupEditor": "none",
     "terminal.integrated.enablePersistentSessions": false,
-    "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.perEditorGroup": true,
-    "workbench.editor.limit.value": 1
+    "update.showReleaseNotes": false,
+    "explorer.confirmDragAndDrop": false
 }
