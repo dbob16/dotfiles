@@ -7,7 +7,6 @@
     "window.customTitleBarVisibility": "auto",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.editor.showTabs": "single",
     "terminal.integrated.tabs.enabled": false,
     "explorer.compactFolders": false,
     "workbench.startupEditor": "none",
