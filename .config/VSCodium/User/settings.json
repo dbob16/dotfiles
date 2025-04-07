@@ -11,6 +11,7 @@
     "explorer.compactFolders": false,
     "workbench.startupEditor": "none",
     "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.fontFamily": "'MesloLGS NF', 'monospace', monospace",
     "update.showReleaseNotes": false,
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
