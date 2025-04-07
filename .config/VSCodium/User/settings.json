@@ -14,8 +14,10 @@
     "update.showReleaseNotes": false,
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
-    "markyMarkdown.statsShowReadingTime": false,
-    "markyMarkdown.statsShowWords": true,
-    "markyMarkdown.statsShowLines": false,
-    "markyMarkdown.statsShowCharacters": false
+    "terminal.integrated.fontFamily": "'MesloLGS NF','monospace',monospace",
+    "jupyter.askForKernelRestart": false,
+    "chat.commandCenter.enabled": false,
+    "files.associations": {
+        "*.kv": "yaml"
+    }
 }
