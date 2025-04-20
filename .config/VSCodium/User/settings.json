@@ -20,5 +20,8 @@
     "chat.commandCenter.enabled": false,
     "files.associations": {
         "*.kv": "yaml"
-    }
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on"
 }
