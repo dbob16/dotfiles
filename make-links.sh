@@ -15,3 +15,8 @@ ln -sf $PWD/.config/ncmpcpp/config ~/.config/ncmpcpp/config
 mkdir -p ~/.config/VSCodium/User
 ln -sf $PWD/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
 ln -sf $PWD/.config/VSCodium/User/snippets ~/.config/VSCodium/User/snippets
+
+# Link for dg-shell
+
+ln -sf $PWD/.config/.dg-shell.zsh ~/.config/.dg-shell.zsh
+echo -e "\n\nsource ~/.config/.dg-shell.zsh" >> ~/.zshrc
