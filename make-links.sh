@@ -19,4 +19,4 @@ ln -sf $PWD/.config/VSCodium/User/snippets ~/.config/VSCodium/User/snippets
 # Link for dg-shell
 
 ln -sf $PWD/.config/.dg-shell.zsh ~/.config/.dg-shell.zsh
-echo -e "\n\nsource ~/.config/.dg-shell.zsh" >> ~/.zshrc
+ln -sf $PWD/.zshrc ~/.zshrc

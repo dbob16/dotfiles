@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
     "editor.fontFamily": "'Comic Mono', 'Droid Sans Mono', 'monospace', monospace",
     "files.enableTrash": false,
     "window.restoreWindows": "none",
@@ -12,10 +12,10 @@
     "workbench.startupEditor": "none",
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.fontFamily": "'MesloLGS NF', 'monospace', monospace",
+    "terminal.integrated.fontSize": 16,
     "update.showReleaseNotes": false,
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
-    "terminal.integrated.fontFamily": "'MesloLGS NF','monospace',monospace",
     "jupyter.askForKernelRestart": false,
     "chat.commandCenter.enabled": false,
     "files.associations": {
