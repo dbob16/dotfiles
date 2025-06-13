@@ -16,6 +16,10 @@ mkdir -p ~/.config/VSCodium/User
 ln -sf $PWD/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
 ln -sfT $PWD/.config/VSCodium/User/snippets ~/.config/VSCodium/User/snippets
 
+# Link for scripts
+
+ln -sfT $PWD/.config/scripts ~/.config/scripts
+
 # Link for dg-shell
 
 ln -sf $PWD/.config/.dg-shell.zsh ~/.config/.dg-shell.zsh
