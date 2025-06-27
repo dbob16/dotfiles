@@ -16,6 +16,9 @@ mkdir -p ~/.config/VSCodium/User
 ln -sf $PWD/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
 ln -sfT $PWD/.config/VSCodium/User/snippets ~/.config/VSCodium/User/snippets
 
+# Links for nvim
+ln -sfT $PWD/.config/nvim ~/.config/nvim
+
 # Link for scripts
 
 ln -sfT $PWD/.config/scripts ~/.config/scripts
