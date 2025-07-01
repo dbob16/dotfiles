@@ -1,3 +1,7 @@
+if [ -f /usr/bin/fastfetch ]; then
+  fastfetch -c ~/.config/fastfetch/minimal.jsonc
+fi
+echo ""
 echo -e "Shall we play a game?\n"
 autoload -Uz tetriscurses
 
