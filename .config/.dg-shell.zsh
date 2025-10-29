@@ -32,3 +32,12 @@ function cv() {
     source ~/python-venv/default/bin/activate
   fi
 }
+
+function mkcd() {
+  if [ ! -d $1 ]; then
+    mkdir -p $1
+  fi
+  if [ -d $1 ]; then
+    cd $1
+  fi
+}
