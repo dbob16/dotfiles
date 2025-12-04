@@ -46,3 +46,9 @@ echo "Making links for shell"
 ln -sf $PWD/.config/.dg-shell.zsh ~/.config/.dg-shell.zsh
 ln -sf $PWD/.zshrc ~/.zshrc
 echo "Shell links... Done."
+
+# Link for dg-bash
+echo "Making Links for bash"
+ln -sf $PWD/.config/dg-bash ~/.config/dg-bash
+ln -sf $PWD/.bashrc ~/.bashrc
+echo "Bash links... Done."
