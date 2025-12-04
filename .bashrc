@@ -1,7 +1,3 @@
-if [ -z "$PS1" ]; then
-  exit 0
-fi
-
 unset HISTFILE
 
 export PS1="\u@\h \W \$ "
