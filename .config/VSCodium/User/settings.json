@@ -23,5 +23,6 @@
     },
     "terminal.integrated.cursorBlinking": true,
     "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on"
+    "editor.cursorSmoothCaretAnimation": "on",
+    "svelte.enable-ts-plugin": true
 }
