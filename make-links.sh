@@ -14,14 +14,6 @@ mkdir -p ~/.config/ncmpcpp
 ln -sf $PWD/.config/ncmpcpp/config ~/.config/ncmpcpp/config
 echo "ncmpcpp links... Done."
 
-# Links for VSCodium
-
-echo "Making links for VSCodium"
-mkdir -p ~/.config/VSCodium/User
-ln -sf $PWD/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/settings.json
-ln -sfT $PWD/.config/VSCodium/User/snippets ~/.config/VSCodium/User/snippets
-echo "VSCodium links... Done."
-
 # Links for nvim
 
 echo "Making links for NVIM"
