@@ -10,6 +10,12 @@ if [ -f ~/.config/dg-bash/functions.sh ]; then
   source ~/.config/dg-bash/functions.sh
 fi
 
+if [ -x "$(command -v go)" ]; then
+  if [ -d "$(go env GOPATH)/bin" ]; then 
+    export PATH=$PATH:$(go env GOPATH)/bin
+  fi
+fi
+
 if [ -x "$(command -v fastfetch)" ]; then
   if [ -f ~/.config/fastfetch/minimal.jsonc ]; then
     fastfetch -c ~/.config/fastfetch/minimal.jsonc
