@@ -1,7 +1,10 @@
 #!/bin/bash
 
-if mpc status | grep -q "\[playing\]"; then
-	mpc status | head -1
+c_song=$(mpc current)
+
+if [ -n "${c_song}" ]; then
+	p_status=$(mpc status "%state%")
+	echo -e "[${p_status}] ${c_song}"
 else
 	echo -n "mpd"
 fi

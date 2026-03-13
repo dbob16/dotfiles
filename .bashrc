@@ -16,6 +16,10 @@ if [ -x "$(command -v go)" ]; then
   fi
 fi
 
+if [ -x "$(command -v ollama)" ]; then
+  export OLLAMA_KEEP_ALIVE=10m
+fi
+
 if [ -x "$(command -v fastfetch)" ]; then
   if [ -f ~/.config/fastfetch/minimal.jsonc ]; then
     fastfetch -c ~/.config/fastfetch/minimal.jsonc
@@ -25,3 +29,6 @@ if [ -x "$(command -v fastfetch)" ]; then
 fi
 
 echo -e "\nShall we play a game?"
+
+# opencode
+export PATH=/home/dilan/.opencode/bin:$PATH
