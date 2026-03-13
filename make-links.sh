@@ -20,6 +20,11 @@ echo "Making links for NVIM"
 ln -sfT $PWD/.config/nvim ~/.config/nvim
 echo "NVIM links... Done."
 
+# Links for Zed
+echo "Making links for Zed"
+ln -sf $PWD/.config/zed/settings.json ~/.config/zed/settings.json
+echo "Zed links... Done."
+
 # Links for fastfetch
 
 echo "Making links for fastfetch"
@@ -41,6 +46,6 @@ echo "Shell links... Done."
 
 # Link for dg-bash
 echo "Making Links for bash"
-ln -sf $PWD/.config/dg-bash ~/.config/dg-bash
+ln -sfT $PWD/.config/dg-bash ~/.config/dg-bash
 ln -sf $PWD/.bashrc ~/.bashrc
 echo "Bash links... Done."

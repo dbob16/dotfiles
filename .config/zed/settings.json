@@ -1,0 +1,72 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ui_font_family": "ComicShannsMono Nerd Font",
+  "buffer_font_family": "ComicShannsMono Nerd Font Mono",
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
+  "disable_ai": false,
+  "show_edit_predictions": false,
+  "show_completion_documentation": true,
+  "show_completions_on_input": true,
+  "edit_predictions": {
+    "ollama": {
+      "model": "gemma3:4b"
+    },
+    "provider": "ollama"
+  },
+  "auto_update": false,
+  "session": {
+    "trust_all_worktrees": true,
+    "restore_unsaved_buffers": false
+  },
+  "agent": {
+    "default_model": {
+      "provider": "ollama",
+      "model": "gemma3:4b",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "restore_on_startup": "empty_tab",
+  "format_on_save": "off",
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "project_panel": {
+    "dock": "left",
+    "auto_fold_dirs": false,
+    "auto_reveal_entries": true
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
+  },
+  "language_models": {
+    "ollama": {
+      "available_models": [
+        {
+          "name": "gemma3:4b",
+          "max_tokens": 32768,
+          "keep_alive": "15m"
+        }
+      ]
+    }
+  }
+}
